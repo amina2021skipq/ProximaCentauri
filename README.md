@@ -1,7 +1,7 @@
 # ProximaCentauri
 This is the Repo for cohort 2 trainees.
 
-## Web Health Stack Project (Sprint1: 13Dec-17Dec)
+### Web Health Stack Project (Sprint1: 13Dec-17Dec)
 In this project we will monitor the url resorce /website and check whether the mentioned host is avaible and measure latency. we will use lambda service. This service will measures and write the availblity and latency into cloud watch service. If the latency value rises from thresh hold then Cloud watch alarm arises alarm. 
 When alarm rised , SNS Topic service will send notifications to the subscribers. Notifications may be in the form of email and msg or some other way. After notifications , one service will run named “Alarm Handler Lamda that will write these alarms in daynamoDB service
  1. Lambda Service
@@ -10,7 +10,7 @@ When alarm rised , SNS Topic service will send notifications to the subscribers.
  4. SNS Service
  5. Dynamo DB Service
 
-## Commands used to set Environment
+### Commands used to set Environment
 1. python --version
 2. sudo apt-get install python3.7
 3. alias python=python3
@@ -28,7 +28,7 @@ When alarm rised , SNS Topic service will send notifications to the subscribers.
 15. mkdir LeetCode
 16. cd Sprint1
 
-##Commands used to create & run project
+### Commands used to create & run project
 1. cdk init app --language python
 2. python -m pip install -r requirements.txt
 3. source .venv/bin/activate
@@ -41,12 +41,12 @@ When alarm rised , SNS Topic service will send notifications to the subscribers.
 10. cdk deploy
 11. deactivate
 
-## LeetCode
+### LeetCode
 1. Array Code
 2. Linked List Code
   
-## User Stories 
+### User Stories 
  1. Sprint 1(Web Health Stack Project)
 
-## Documentation
+### Documentation
 1. Sprint 1(Web Health Stack Project)
