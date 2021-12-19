@@ -41,6 +41,11 @@ When alarm rised , SNS Topic service will send notifications to the subscribers.
 10. cdk deploy
 11. deactivate
 
+### Commands used to push on GitHub
+1. git add ______________
+2. git commit -m "First Commit"
+3. git push
+
 ### LeetCode
 1. Array Code
 2. Linked List Code
