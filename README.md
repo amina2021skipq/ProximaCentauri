@@ -10,7 +10,38 @@ When alarm rised , SNS Topic service will send notifications to the subscribers.
  4. SNS Service
  5. Dynamo DB Service
 
-## LeetCode:
+## Commands used to set Environment
+1. python --version
+2. sudo apt-get install python3.7
+3. alias python=python3
+4. python --version
+5. aws --version
+6. curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+7. unzip awscliv2.zip
+8. sudo ./aws/install
+9. aws --version
+10. git clone _________
+11. cd ProximaCentauri
+12. mkdir AminaArshad
+13. cd AminaArshad
+14. mkdir Sprint1
+15. mkdir LeetCode
+16. cd Sprint1
+
+##Commands used to create & run project
+1. cdk init app --language python
+2. python -m pip install -r requirements.txt
+3. source .venv/bin/activate
+4. python -m pip install -r requirements.txt
+5. nvm install v16.3.0 && nvm use v16.3.0 && nvm alias v16.3.0
+6. npm install -g aws-cdk
+7. export PATH=$PATH:$(npm get prefix)/bin
+8. python -m pip install aws-cdk.aws-s3 aws-cdk.aws-lambda
+9. cdk synth
+10. cdk deploy
+11. deactivate
+
+## LeetCode
 1. Array Code
 2. Linked List Code
   
@@ -19,6 +50,3 @@ When alarm rised , SNS Topic service will send notifications to the subscribers.
 
 ## Documentation
 1. Sprint 1(Web Health Stack Project)
-
-
-
